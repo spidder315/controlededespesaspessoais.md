@@ -1,5 +1,6 @@
 1        DESCRIÇÃO DO PROJETO
  
+INTRODUÇÃO
 
 O Projeto de Controle de Gastos visa auxiliar indivíduos e famílias no gerenciamento eficiente de suas finanças pessoais.
 Através de uma plataforma intuitiva, será possível registrar receitas, despesas e visualizar relatórios detalhados para melhor tomada de decisão financeira.
