@@ -22,7 +22,7 @@ O usuário pode analisar o relatório gerado, verificando seus gastos por catego
 
 O processo de análise de despesas é finalizado.
 
-
+![imagemdocircuito](diagramadoprojeto.png)
 
 
 
