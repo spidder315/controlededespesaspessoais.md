@@ -25,23 +25,35 @@ O usuário pode analisar o relatório gerado, verificando seus gastos por catego
 
 ![imagemdocircuito](diagramadoprojeto.png)
 
+id: Identificador único do usuário (int).
+nome: Nome completo do usuário (string).
+email: Endereço de e-mail do usuário (string).
+senha: Senha do usuário (string)
+registrar(): Permite o registro de um novo usuário.
+login(): Permite o login de um usuário existente.
+visualizarDados(): Permite visualizar os dados do usuário.
+id: Identificador único da transação (int).
+tipo: Tipo de transação (string).
+valor: Valor da transação (float).
+data: Data da transação (Date).
+categoria: Categoria da transação (string).
+usuariold: ID do usuário que realizou a transação (int).
+registrar(): Permite o registro de uma nova transação.
+editar(): Permite editar os dados de uma transação existente.
+excluir(): Permite excluir uma transação existente.
+id: Identificador único da notificação (int).
+usuariold: ID do usuário ao qual a notificação se destina (int).
+mensagem: Mensagem da notificação (string).
+data: Data da notificação (Date).
 
+#Funcionalidades do Sistema
 
+O diagrama de classes representa as funcionalidades básicas de um sistema financeiro, incluindo:
 
+Gerenciamento de usuários (registro, login, visualização de dados).
+Geração e exportação de relatórios financeiros.
+Registro, edição e exclusão de transações financeiras.
+Gerenciamento de categorias de transações.
+Definição, edição e exclusão de metas financeiras.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Este diagrama de classes fornece uma visão geral da estrutura e funcionalidades do sistema financeiro. Ele pode ser utilizado como base para o desenvolvimento do sistema, auxiliando na compreensão das entidades, seus atributos e seus relacionamentos.
