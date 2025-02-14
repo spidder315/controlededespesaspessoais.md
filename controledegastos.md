@@ -27,24 +27,43 @@ O usuário pode analisar o relatório gerado, verificando seus gastos por catego
 # Resumo do diagrama
 
 id: Identificador único do usuário (int).
+
 nome: Nome completo do usuário (string).
+
 email: Endereço de e-mail do usuário (string).
+
 senha: Senha do usuário (string)
+
 registrar(): Permite o registro de um novo usuário.
+
 login(): Permite o login de um usuário existente.
+
 visualizarDados(): Permite visualizar os dados do usuário.
+
 id: Identificador único da transação (int).
+
 tipo: Tipo de transação (string).
+
 valor: Valor da transação (float).
+
 data: Data da transação (Date).
+
 categoria: Categoria da transação (string).
+
 usuariold: ID do usuário que realizou a transação (int).
+
 registrar(): Permite o registro de uma nova transação.
+
 editar(): Permite editar os dados de uma transação existente.
+
 excluir(): Permite excluir uma transação existente.
+
 id: Identificador único da notificação (int).
+
 usuariold: ID do usuário ao qual a notificação se destina (int).
+
 mensagem: Mensagem da notificação (string).
+
 data: Data da notificação (Date).
 
 # Funcionalidades do Sistema
