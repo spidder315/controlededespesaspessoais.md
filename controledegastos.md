@@ -24,6 +24,7 @@ O usuário pode analisar o relatório gerado, verificando seus gastos por catego
 7  O processo de análise de despesas é finalizado.
 
 ![imagemdocircuito](diagramadoprojeto.png)
+
 # Resumo do diagrama
 
 id: Identificador único do usuário (int).
