@@ -24,6 +24,7 @@ O usuário pode analisar o relatório gerado, verificando seus gastos por catego
 7  O processo de análise de despesas é finalizado.
 
 ![imagemdocircuito](diagramadoprojeto.png)
+# Resumo do diagrama
 
 id: Identificador único do usuário (int).
 nome: Nome completo do usuário (string).
@@ -46,7 +47,7 @@ usuariold: ID do usuário ao qual a notificação se destina (int).
 mensagem: Mensagem da notificação (string).
 data: Data da notificação (Date).
 
-#Funcionalidades do Sistema
+# Funcionalidades do Sistema
 
 O diagrama de classes representa as funcionalidades básicas de um sistema financeiro, incluindo:
 
